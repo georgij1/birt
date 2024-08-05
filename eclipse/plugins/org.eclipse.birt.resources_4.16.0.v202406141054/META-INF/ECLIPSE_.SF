@@ -1,0 +1,120 @@
+Signature-Version: 1.0
+Created-By: 11.0.22 (Ubuntu)
+SHA-256-Digest-Manifest: i2BRb7WaYla9A85ONRqGHI9BGNTQ2DpaEg7/4EbgCfM=
+SHA-256-Digest-Manifest-Main-Attributes: MgaghuHAGbejQ8aEQ5a2KDIICz99DVM
+ MD11f42WPpqs=
+
+Name: templates/TOCDefaultValue.xml
+SHA-256-Digest: HEMOdCH/oHc6ei6DZneCEIjaWLQZ0wk+f1aFZzf5eO4=
+
+Name: templates/freeformat.rptdesign
+SHA-256-Digest: eIyc1/i7S3AA8h6FMWmnJsNLN6hPTrZTUJHCWrKMwsY=
+
+Name: templates/simple_listing.rpttemplate
+SHA-256-Digest: WPfRf0N4FltCslEncr/dTs78g1m8gO53HnvmYNLoxkE=
+
+Name: plugin.xml
+SHA-256-Digest: 8fJTzXP6Q66Af7n29YudMuCrQ0xlV2Oz1IW5b5srr3g=
+
+Name: templates/crosstab.gif
+SHA-256-Digest: 9l6O1oGYRXL9p8PCeaRbo0IRQocMY/nE91vbstLvLRo=
+
+Name: templates/sidebyside_chart_listing.xml
+SHA-256-Digest: W2+HgoySHvU4D/Y9iw7CoELcaMyo1DCveGf/4TzU+Nw=
+
+Name: templates/dual_column_listing.xml
+SHA-256-Digest: tbhiWgQqdSEvyLmZ1+a9EsEmNFYvV7idfebPVeKjezs=
+
+Name: templates/dual_column_chart_listing.gif
+SHA-256-Digest: h5/1mHuzIqQX7xyAa23TdvFvVOZCMa3sooRqdKwxSgk=
+
+Name: templates/chart_listing.xml
+SHA-256-Digest: ZF/Cf3wok2J4nIicsZWQfKqK+xHxs/IRBOnIh1qx3Hk=
+
+Name: templates/dual_column_listing.rpttemplate
+SHA-256-Digest: YD2WHuniE45mcmsBhu9nNIQ1AjUy2hyQm5SQ51Ee8gc=
+
+Name: templates/chart_listing.rpttemplate
+SHA-256-Digest: tKr2UeImALCuRaJF7u/pNp8a2Yd6meShfEnoE0q7CMM=
+
+Name: templates/chart_listing.gif
+SHA-256-Digest: I+zl8u5GsDQaibwMYK+p53aaZ1WCOw9KdLFISBI2b3I=
+
+Name: templates/crosstab.xml
+SHA-256-Digest: NT92OX3/IqSJhCk2mhLpWwfRr6OxdLaWVxhqKUOoOuQ=
+
+Name: plugin.properties
+SHA-256-Digest: 5f1ZX96R3MJSd1mzADrUA+WN26OTVLpj8HzXsbTVXTg=
+
+Name: templates/blank_library.rpttemplate
+SHA-256-Digest: aY6nOst69eVf6veF7K5t2CajrJluFUepsOslo0HTWnE=
+
+Name: templates/crosstab.rpttemplate
+SHA-256-Digest: oH6UWwiOnI03sTp0RiHQsvOlOdBxtjJcJD/YgpkZFxE=
+
+Name: templates/sidebyside_chart_listing.rpttemplate
+SHA-256-Digest: DeS/AhzKLalr4XdB2f482mv3OpcunCp+s9LWKZqgSU0=
+
+Name: templates/dual_column_chart_listing.rpttemplate
+SHA-256-Digest: VAEdKUHpgDTvZryQ9UEzUZZH3TCg6zo6vt4QGliR7fg=
+
+Name: templates/blank_report.gif
+SHA-256-Digest: HKX+ndUauChSCWzbrBdkzfdQAed6VSoHEPgH5pUlN84=
+
+Name: templates/letter.rptdesign
+SHA-256-Digest: T5Mryshc098+2U4i/hl0ePo3ikJZTkFOfoq4QBC1Wm8=
+
+Name: about.html
+SHA-256-Digest: IZBR3zaTpBW/z7n0bQtoaVWBlp5WiQorVodMs5NuKXg=
+
+Name: templates/letter.gif
+SHA-256-Digest: xqkgrZlAarIQ07N4w+c9aFsAkU2gF543nAElT95V9OE=
+
+Name: templates/simple_listing.gif
+SHA-256-Digest: 1M/n1A4kNMDCqJHst6g7IsTxcVAJeC5Jl/reNBPHoJ0=
+
+Name: templates/grouped_listing.rpttemplate
+SHA-256-Digest: e4tEhcIg1JeoKCBKX/sMLDvhm8N6MunO4a0TiLRmi5I=
+
+Name: templates/blank_report.rpttemplate
+SHA-256-Digest: vsCV6mr0H5rYZ2+8MMJdxhsm8bw5xt8kNwV8WY2IOO0=
+
+Name: templates/freeformat.gif
+SHA-256-Digest: fIk93f11N3LrNkft0DooQgmaiu2TMX/MFa146dvlt4I=
+
+Name: templates/dual_column_chart_listing.xml
+SHA-256-Digest: IwY41dnM1mnPfL0PxpriiqHchoNLlau5d1CnjAjr+FM=
+
+Name: templates/dual_column_listing.gif
+SHA-256-Digest: wgkuOv9wgd4g4XcPI6QNjY0KwWr2q1vmGnqc/7+svH8=
+
+Name: templates/grouped_listing.xml
+SHA-256-Digest: A7aYh5+HM+6Mfc5mONZrUpblQktNPXm2W06LlTH7ECY=
+
+Name: templates/mailing_labels.rptdesign
+SHA-256-Digest: dxEnRaxehGD6rDVKeDj/qW3Q/1JD2wDZ37VklA19yRo=
+
+Name: templates/dashboard.gif
+SHA-256-Digest: V9CCP/oRWOovJF/cWkuKnTuQIdNS3zOCoOn2J48d2jA=
+
+Name: templates/simple_listing.xml
+SHA-256-Digest: 9DUTB2grPPd+zSn+xjlN1pSRlqUJdG6Ik/YUauvmhhU=
+
+Name: templates/grouped_listing.gif
+SHA-256-Digest: KDnSYrmVvUYLq0D57b61vw6RmTuEv0iI7MTJZlCbsF8=
+
+Name: templates/my_first_report.xml
+SHA-256-Digest: 9yhg5vJWs76MBRHExqrpvIK3AUkFGKuhUqrA0SnjwSE=
+
+Name: templates/first_report.gif
+SHA-256-Digest: exr4g+CAyTUHzMS748jT8opTUbMy/SJA1+XwAy7hlEo=
+
+Name: templates/mailing_labels.gif
+SHA-256-Digest: JZVPU0/1ZFkXrdBFHJVLbGrNRx0sDSR3MFTfx92FLFM=
+
+Name: templates/my_first_report.rpttemplate
+SHA-256-Digest: Z0LfdivDV4uu10gmyyHTh/Kl5UM6HKtxSukc6AmqE2Q=
+
+Name: templates/sidebyside_chart_listing.gif
+SHA-256-Digest: YP2ZAgeYyub/FsuA+ooyCnLUEvE/jDjFVrG3iPbEEfg=
+

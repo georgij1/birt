@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.birt.report.engine.fonts
+Bundle-Version: 4.16.0.v202406141054
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.birt.report.engine.fonts
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-birt/birt.g
+ it;path="engine/org.eclipse.birt.report.engine.fonts";commitId=bb163162
+ 5f1ecff8a55b2d51dfcfd5b6d6c758ad
+
+Name: fontsConfig.xml
+SHA-256-Digest: 3jRI+JvOW2mNjp4IeAhtpXgs88L9hisA8s3DvIYlyYU=
+
+Name: about.html
+SHA-256-Digest: llGIjNfKVI3lnKimqXjLsbXf5D9YSv/vLb8eNs2Pxkk=
+
+Name: fontsConfig_linux.xml
+SHA-256-Digest: m71598hlEi66chaJ2FEvIIKIN/R6MtSGg0Xc0n+Aikw=
+
+Name: fontsConfig_pdf.xml
+SHA-256-Digest: dLSvTAnaDkXxSjJ7wq1+dzTssJLfOvDsYwBHjwslCaU=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: 3FlreNQuHIHbhAh9xRcrrfs2a+64baaW9J0h9Fi65g4=
+
+Name: fontsConfig_win32.xml
+SHA-256-Digest: 0yCZmRk/Eea5bv9vaJMw8VR0pJu/uvwz08G/kRjn6n8=
+

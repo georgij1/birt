@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.birt.chart.cshelp:4.16.0.v202406141054"/>
+		<item value="org.eclipse.birt.cshelp:4.16.0.v202406141054"/>
+		<item value="org.eclipse.birt.doc:4.16.0.v202406141054"/>
+		<item value="org.eclipse.birt.example:4.16.0.v202406141054"/>
+		<item value="org.eclipse.birt.report.designer.editor.xml.wtp:4.16.0.v202406141054"/>
+		<item value="org.eclipse.birt:4.16.0.v202406141054"/>
+		<item value="org.eclipse.datatools.common.doc.user:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.connectivity.doc.user:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.connectivity.feature:1.16.0.202311071345"/>
+		<item value="org.eclipse.datatools.connectivity.oda.designer.core.feature:1.16.0.202311071345"/>
+		<item value="org.eclipse.datatools.connectivity.oda.designer.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.connectivity.oda.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.doc.user:1.16.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.apache.derby.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.hsqldb.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.ibm.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.ingres.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.jdbc.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.jdt.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.msft.feature:1.16.0.202311071307"/>
+		<item value="org.eclipse.datatools.enablement.mysql.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.oda.designer.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.oda.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.oracle.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.postgresql.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.sap.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.sqlite.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.enablement.sybase.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.intro:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.modelbase.feature:1.15.0.202311071249"/>
+		<item value="org.eclipse.datatools.sqldevtools.ddlgen.feature:1.16.0.202403060703"/>
+		<item value="org.eclipse.datatools.sqldevtools.feature:1.16.0.202403060703"/>
+		<item value="org.eclipse.datatools.sqldevtools.parsers.feature:1.16.0.202311071638"/>
+		<item value="org.eclipse.datatools.sqltools.doc.user:1.15.0.202311071249"/>
+		<item value="org.eclipse.draw2d:3.20.0.202405290843"/>
+		<item value="org.eclipse.emf.codegen.ecore.ui:2.38.0.v20240314-1003"/>
+		<item value="org.eclipse.emf.codegen.ecore:2.38.0.v20240314-1003"/>
+		<item value="org.eclipse.emf.codegen.ui:2.25.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.codegen:2.24.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.common.ui:2.21.0.v20231002-1020"/>
+		<item value="org.eclipse.emf.common:2.31.0.v20240314-0928"/>
+		<item value="org.eclipse.emf.converter:2.20.0.v20240203-0859"/>
+		<item value="org.eclipse.emf.databinding.edit:1.11.0.v20231208-1346"/>
+		<item value="org.eclipse.emf.databinding:1.11.0.v20231208-1346"/>
+		<item value="org.eclipse.emf.ecore.edit:2.16.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.ecore.editor:2.19.0.v20230224-1122"/>
+		<item value="org.eclipse.emf.ecore:2.37.0.v20240203-0859"/>
+		<item value="org.eclipse.emf.edit.ui:2.25.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.edit:2.22.0.v20231208-1346"/>
+		<item value="org.eclipse.emf.mapping.ecore.editor:2.16.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.mapping.ecore:2.14.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.mapping.ui:2.15.0.v20230211-1150"/>
+		<item value="org.eclipse.emf.mapping:2.15.0.v20230211-1150"/>
+		<item value="org.eclipse.emf:2.38.0.v20240314-1003"/>
+		<item value="org.eclipse.gef:3.20.0.202405290843"/>
+		<item value="org.eclipse.help:2.3.1800.v20240601-0610"/>
+		<item value="org.eclipse.jdt:3.19.500.v20240601-0610"/>
+		<item value="org.eclipse.justj.epp:21.0.0.v20240404-0625"/>
+		<item value="org.eclipse.pde:3.15.400.v20240601-0610"/>
+		<item value="org.eclipse.platform:4.32.0.v20240601-0610"/>
+		<item value="org.eclipse.rcp:4.32.0.v20240601-0610"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.34.0.v202404170147"/>
+		<item value="org.eclipse.xsd.edit:2.15.0.v20230211-1150"/>
+		<item value="org.eclipse.xsd:2.21.0.v20231205-1420"/>
+	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.birt.report.designer.ui.ide.wizards.NewReportProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.birt.report.designer.ui.wizard.category"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\user\Desktop\MNLZ"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="669"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_WIDTH" value="885"/>
+			<item key="DIALOG_HEIGHT" value="629"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

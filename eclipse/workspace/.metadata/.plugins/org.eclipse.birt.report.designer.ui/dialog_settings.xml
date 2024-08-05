@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Shell {Edit Data Source - Data Source} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="867"/>
+		<item key="DIALOG_Y_ORIGIN" value="197"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Set - MainDataSet} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="568"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Set - MeltAndSerno} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="568"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Data Cube Builder} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/test.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="SASHFORM.LEFT" value="164"/>
+		<item key="SASHFORM.RIGHT" value="656"/>
+		<item key="DIALOG_X_ORIGIN" value="558"/>
+		<item key="DIALOG_Y_ORIGIN" value="128"/>
+		<item key="DIALOG_WIDTH" value="820"/>
+		<item key="DIALOG_HEIGHT" value="600"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {Data Cube Builder} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/test.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="10"/>
+		<item key="DIALOG_Y_ORIGIN" value="-33"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Text Item} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@371c7b39]">
+		<item key="DIALOG_X_ORIGIN" value="531"/>
+		<item key="DIALOG_Y_ORIGIN" value="187"/>
+		<item key="DIALOG_WIDTH" value="874"/>
+		<item key="DIALOG_HEIGHT" value="512"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Set - MainDataSet} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@2b497998]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="568"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Text Item} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ2Report.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@2b497998]">
+		<item key="DIALOG_X_ORIGIN" value="637"/>
+		<item key="DIALOG_Y_ORIGIN" value="187"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="512"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Text Item} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ30.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@2b497998]">
+		<item key="DIALOG_X_ORIGIN" value="637"/>
+		<item key="DIALOG_Y_ORIGIN" value="187"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="512"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Set - MainDataSet} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@7e354474]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="568"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="Shell {Edit Data Source - Data Source} [layout=GridLayout {numColumns=5 verticalSpacing=5}]/Shell {workspace - MNLZ/MNLZ.rptdesign - BIRT Report Designer All-In-One} [layout=org.eclipse.e4.ui.workbench.renderers.swt.TrimmedPartLayout@6cd27d52]">
+		<item key="SASHFORM.LEFT" value="160"/>
+		<item key="SASHFORM.RIGHT" value="640"/>
+		<item key="DIALOG_X_ORIGIN" value="568"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *******************************************************************************
+ * Copyright (c) 2021 Contributors to the Eclipse Foundation
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License 2.0 which is available at
+ * https://www.eclipse.org/legal/epl-2.0/.
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+ * 
+ * Contributors:
+ *   See git history
+ *******************************************************************************
+-->
+<cheatsheet title="My First Report">
+  <intro>
+    <description>
+The customer listing report tutorial helps you build your first report. It provides step-by-step instructions for building a report that lists customer names, phone numbers, and contact names. The report uses data from the sample database, ClassicModels
+    </description>
+  </intro>
+  <item
+  		title="Start the tutorial" skip="false"><description></description>
+  <action class="org.eclipse.birt.report.designer.ui.actions.cheatsheets.OpenDocAction"
+     pluginId="org.eclipse.birt.report.designer.ui"
+     param1="/org.eclipse.birt.doc/birt/gs-Tut1BuildingASimpleListingReportIntro.html"/>
+     </item>
+</cheatsheet>

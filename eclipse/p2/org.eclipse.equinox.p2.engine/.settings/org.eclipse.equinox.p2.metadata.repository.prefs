@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+repositories/https\:__download.eclipse.org_birt_updates_release_latest/count=1
+repositories/https\:__download.eclipse.org_birt_updates_release_latest/enabled=true
+repositories/https\:__download.eclipse.org_birt_updates_release_latest/isSystem=false
+repositories/https\:__download.eclipse.org_birt_updates_release_latest/nickname=BIRT Project Updates
+repositories/https\:__download.eclipse.org_birt_updates_release_latest/uri=https\://download.eclipse.org/birt/updates/release/latest
+repositories/https\:__download.eclipse.org_justj_epp_release_latest/count=1
+repositories/https\:__download.eclipse.org_justj_epp_release_latest/enabled=true
+repositories/https\:__download.eclipse.org_justj_epp_release_latest/isSystem=false
+repositories/https\:__download.eclipse.org_justj_epp_release_latest/nickname=JustJ JRE Updates for IDE Packages
+repositories/https\:__download.eclipse.org_justj_epp_release_latest/uri=https\://download.eclipse.org/justj/epp/release/latest

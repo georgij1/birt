@@ -1,0 +1,130 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.birt.resources;singleton:=true
+Bundle-Version: 4.16.0.v202406141054
+Bundle-Localization: plugin
+Bundle-Vendor: %Bundle-Vendor
+Eclipse-BundleShape: dir
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.eclipse.birt.resources
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-birt/birt.g
+ it;path="model/org.eclipse.birt.resources";commitId=bb1631625f1ecff8a55
+ b2d51dfcfd5b6d6c758ad
+
+Name: templates/TOCDefaultValue.xml
+SHA-256-Digest: qdt/yWa/0ByslBgAna7OUwboHqKIlqVg7GBjGj5Nd0U=
+
+Name: templates/freeformat.rptdesign
+SHA-256-Digest: VA2oN9GRy4OENtlWNH6MSOhq4MHyNWQ3RclwaqQPW4k=
+
+Name: templates/simple_listing.rpttemplate
+SHA-256-Digest: K9bsOh8waBaQN6sUus5pPuYKkvMSSfEQEtXNAc8WEkY=
+
+Name: plugin.xml
+SHA-256-Digest: tME+9MVE/YaXBMu7j1PoLHl9WJuny28NARw0Nobilmw=
+
+Name: templates/crosstab.gif
+SHA-256-Digest: Lga5SBAaMnoj73G2bdzUbmsZcGb8VnMZrV9QOU9Jlug=
+
+Name: templates/sidebyside_chart_listing.xml
+SHA-256-Digest: /LMeWbg0AzzcM3aeh0aSkz5MduGHMJSZiXJeIUH8Fjo=
+
+Name: templates/dual_column_listing.xml
+SHA-256-Digest: it/iKZH2oXXEjhqfL7Jb2KsAIS6EheSqhCWTyWxeqcU=
+
+Name: templates/dual_column_chart_listing.gif
+SHA-256-Digest: KRqYQs71xLpJDeQk2PX71Ai0WImQnu9XoS19dbQqO8s=
+
+Name: templates/chart_listing.xml
+SHA-256-Digest: F+J0I6cfsieyEbIA5/p2g+VSK1liE2XNSCjl9xXgKKU=
+
+Name: templates/dual_column_listing.rpttemplate
+SHA-256-Digest: g7uACbaPTTAufQbreAwVXOyOI+dVZdVZbcVxSrzrRhE=
+
+Name: templates/chart_listing.rpttemplate
+SHA-256-Digest: 45L9xbEpEXtcJ0mKl+UUVFiycV/Tl9NjuL21ZlWVohs=
+
+Name: templates/chart_listing.gif
+SHA-256-Digest: FXSXD3DUq/dOG4NIs7ev0AEUBMzYdot1B4xqdc6DslU=
+
+Name: templates/crosstab.xml
+SHA-256-Digest: VzlZ+K7xZtdSRAxzA4NTYJBi2Ci7plcGCYvVCkVbWYQ=
+
+Name: plugin.properties
+SHA-256-Digest: dg2f6MN+V8KvA9/ToKMxaPDaI9EXstb/MtiD9zWeGmg=
+
+Name: templates/blank_library.rpttemplate
+SHA-256-Digest: g5uqjhHEYaUJqiat57la1pprW66+Pe51buwlEHKnAbU=
+
+Name: templates/crosstab.rpttemplate
+SHA-256-Digest: SHPCJ6RyAs9NogwoVJkmUq3ehw+eX2lSR77mVT/u1mw=
+
+Name: templates/sidebyside_chart_listing.rpttemplate
+SHA-256-Digest: jSgeHFwnMhWFBtuoBdQF+BvKNt6xneY15Yjm+iycn/8=
+
+Name: templates/dual_column_chart_listing.rpttemplate
+SHA-256-Digest: tv4hS+PeOHqjo+DXKlpo+5KyzLRCmuh6VXEYVEVS+bI=
+
+Name: templates/blank_report.gif
+SHA-256-Digest: FiMb4Jqfdszo67ClhIdrDPPDmdNJf3wL1CUsrl8hlmA=
+
+Name: templates/letter.rptdesign
+SHA-256-Digest: /ojrQzc8U15UxB4ebhP/uOu0aisqd+Kqnw7G3ueD7pI=
+
+Name: about.html
+SHA-256-Digest: llGIjNfKVI3lnKimqXjLsbXf5D9YSv/vLb8eNs2Pxkk=
+
+Name: templates/letter.gif
+SHA-256-Digest: iros6UZhNVXY7AhcqEkxOVd6njTx0g1BHE/ycEJHzHo=
+
+Name: templates/simple_listing.gif
+SHA-256-Digest: x87yv8umJ5FjAc2phLKArIw3sIrPPwN9RsR3CgD9LhI=
+
+Name: templates/grouped_listing.rpttemplate
+SHA-256-Digest: RGTw+cLLaHdAGsocdMRHvyrpmSwJDexqA+5PIp5FEHM=
+
+Name: templates/blank_report.rpttemplate
+SHA-256-Digest: 4e+MmzdicCTs+AQk+xqvgdxLMkXVMfF8Y28wZgQZPUQ=
+
+Name: templates/freeformat.gif
+SHA-256-Digest: bh/2RJ8/7Dc1vDUvKHtNzJDadDkK2u8TFWTpoIEhrl4=
+
+Name: templates/dual_column_chart_listing.xml
+SHA-256-Digest: Z6qQlP1l0LfUWpiJtx2oYovAcorx7CuDch3swsc3L0U=
+
+Name: templates/dual_column_listing.gif
+SHA-256-Digest: RARpyU3s+FGQgBf/i2X/L13Or6FfaDscY3/TayDMAP0=
+
+Name: templates/grouped_listing.xml
+SHA-256-Digest: rH4Ijy4qUpS+Y6ICDBN1kQcZ1Wlk9skoup9YZ03UtwQ=
+
+Name: templates/mailing_labels.rptdesign
+SHA-256-Digest: oTvGVvyMD54piBzEq8pSSsnEqbAtVkx9V5q06nuVdck=
+
+Name: templates/dashboard.gif
+SHA-256-Digest: KbCYpis7dAq0v0DGA/fKruS032hDRs8WfyQj22ePtlk=
+
+Name: templates/simple_listing.xml
+SHA-256-Digest: UOzJcXPIWixchfPjjEIicGehXP8BUEKHf2x/8KRMlDo=
+
+Name: templates/grouped_listing.gif
+SHA-256-Digest: ooGdN7Q/MSWoSEmL3Ht1l4vmfR6HaQNHQYNyQyCnqkU=
+
+Name: templates/my_first_report.xml
+SHA-256-Digest: +s+GoDJPnJp3nUbuDO73G0YKM8pWZiUwp4VCCjTI2Ec=
+
+Name: templates/first_report.gif
+SHA-256-Digest: GZHGsQcqqCsfOXkLR+7KPPFQtAf6HeRiOX5YiEEtqdE=
+
+Name: templates/mailing_labels.gif
+SHA-256-Digest: MdTHscW3bknmJ8yXph/CTaWWeJzDVGx5vqW82HvxHfI=
+
+Name: templates/my_first_report.rpttemplate
+SHA-256-Digest: 3BI+ObN7BLyoxdg9LKxknbv0JHpboRTJchpSA8gvxuE=
+
+Name: templates/sidebyside_chart_listing.gif
+SHA-256-Digest: rHvyE+AElv16Dt+FvcCXBk94m8Nm4uF54PcqdxQBg2w=
+

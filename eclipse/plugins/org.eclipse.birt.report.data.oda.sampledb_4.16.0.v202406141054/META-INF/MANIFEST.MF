@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.birt.report.data.oda.sampledb;singleton
+ :=true
+Bundle-Version: 4.16.0.v202406141054
+Bundle-ClassPath: sampledb.jar
+Bundle-Activator: org.eclipse.birt.report.data.oda.sampledb.SampledbPlug
+ in
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.datatools.connectivity.oda;bundle-version="[3.1.0,4.0.0)",o
+ rg.eclipse.birt.report.data.oda.jdbc;bundle-version="[2.2.0,5.0.0)",org
+ .eclipse.birt.core;bundle-version="[2.1.0,5.0.0)",org.apache.derby;bund
+ le-version="[10.1.2,11.0.0)",org.eclipse.datatools.connectivity.oda.pro
+ file;bundle-version="[3.0.4,4.0.0)";resolution:=optional
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.birt.report.data.oda.sampledb
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.birt.report.data.oda.sampledb
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-birt/birt.g
+ it;path="data/org.eclipse.birt.report.data.oda.sampledb";commitId=bb163
+ 1625f1ecff8a55b2d51dfcfd5b6d6c758ad
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+Name: about.html
+SHA-256-Digest: llGIjNfKVI3lnKimqXjLsbXf5D9YSv/vLb8eNs2Pxkk=
+
+Name: plugin.xml
+SHA-256-Digest: D+i+pxg1FPIuA6LiR6lsnAoRz3BW4eoSSYNtGLIWK6s=
+
+Name: plugin.properties
+SHA-256-Digest: y4NavqnD9Od0wUh/fKYErioMP3xVESHkuerQyvbtS0Y=
+
+Name: db/BirtSample.jar
+SHA-256-Digest: UqITgnIPPjN+kc/FSSJsFflDlLIUaMedWLFwb8cIMDQ=
+
+Name: sampledb.jar
+SHA-256-Digest: oXbxg95dvdPyBw5b/8UKO6Lj/8hyNc75fX039rQNX/8=
+
+Name: .options
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+

@@ -1,0 +1,339 @@
+!SESSION 2024-07-31 15:56:55.881 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-07-31 16:00:17.636
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-07-31 16:00:17.965
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:61761
+!SESSION 2024-08-01 14:58:14.168 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-01 15:00:16.095
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-01 15:00:17.130
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:58618
+
+!ENTRY org.eclipse.birt.data 4 1001 2024-08-01 15:26:31.431
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Cannot get the result set metadata.
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: SQL statement does not return a ResultSet object.
+SQL error #1:ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+ ;
+    org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:53)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:103)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:83)
+	at org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.getRuntimeMetaData(PreparedStatement.java:374)
+	at org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.getProjectedColumns(PreparedStatement.java:344)
+	at org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.doGetMetaData(PreparedStatement.java:318)
+	at org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.execute(PreparedStatement.java:498)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.execute(DataSourceQuery.java:857)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.executeOdiQuery(PreparedOdaDSQuery.java:550)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.execute(QueryExecutor.java:1076)
+	at org.eclipse.birt.data.engine.impl.ServiceForQueryResults.executeQuery(ServiceForQueryResults.java:218)
+	at org.eclipse.birt.data.engine.impl.QueryResults.getResultIterator(QueryResults.java:170)
+	at org.eclipse.birt.data.engine.impl.QueryResults.getResultMetaData(QueryResults.java:131)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:179)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:146)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:112)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.refreshMetaData(DataSetMetaDataHelper.java:327)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.refreshMetaData(DataRequestSessionImpl.java:386)
+	at org.eclipse.birt.report.designer.data.ui.dataset.ExternalUIUtil.updateColumnCache(ExternalUIUtil.java:89)
+	at org.eclipse.birt.report.designer.data.ui.providers.DefaultDataServiceProvider.updateColumnCache(DefaultDataServiceProvider.java:119)
+	at org.eclipse.birt.report.designer.internal.ui.data.DataService.updateColumnCache(DataService.java:136)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetUIUtil.updateColumnCache(DataSetUIUtil.java:86)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DefaultDataSetWizard.performFinish(DefaultDataSetWizard.java:97)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:841)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:474)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.birt.report.designer.data.ui.actions.NewDataSetAction.createNewDataSet(NewDataSetAction.java:163)
+	at org.eclipse.birt.report.designer.data.ui.actions.NewDataSetAction.run(NewDataSetAction.java:154)
+	at org.eclipse.birt.report.designer.data.ui.providers.DefaultDataServiceProvider.createDataSet(DefaultDataServiceProvider.java:54)
+	at org.eclipse.birt.report.designer.internal.ui.data.DataService.createDataSet(DataService.java:65)
+	at org.eclipse.birt.report.designer.ui.cubebuilder.page.DatasetSelectionPage.handleDatasetComboSelectedEvent(DatasetSelectionPage.java:313)
+	at org.eclipse.birt.report.designer.ui.cubebuilder.page.DatasetSelectionPage$2.widgetSelected(DatasetSelectionPage.java:121)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:109)
+	at org.eclipse.birt.report.designer.ui.cubebuilder.action.NewCubeAction.run(NewCubeAction.java:102)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: SQL statement does not return a ResultSet object.
+SQL error #1:ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+ ;
+    org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.executeQuery(Statement.java:404)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.getMetaUsingDefaultPolicy(Statement.java:325)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.getMetaData(Statement.java:276)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.getMetaData(BidiStatement.java:62)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doGetMetaData(OdaQuery.java:423)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.getMetaData(OdaQuery.java:390)
+	at org.eclipse.birt.data.engine.odaconsumer.PreparedStatement.getRuntimeMetaData(PreparedStatement.java:369)
+	... 74 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.executeQuery(Statement.java:402)
+	... 80 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2024-08-01 15:26:31.432
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2024-08-01 15:26:31.432
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2024-08-01 15:26:31.432
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2024-08-01 15:26:31.432
+!MESSAGE Version:4.16.0.v202406141054
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2024-08-01 15:26:31.432
+!MESSAGE Error Code:odaconsumer.CannotGetResultSetMetaData
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2024-08-01 15:26:31.432
+!MESSAGE Error Message:Cannot get the result set metadata.
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: SQL statement does not return a ResultSet object.
+SQL error #1:ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+ ;
+    org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 14
+
+!ENTRY org.eclipse.birt.report.designer.ui 4 1001 2024-08-01 15:28:39.105
+!MESSAGE An unexpected internal exception occurred. Please see log for detail.
+!STACK 0
+org.eclipse.birt.report.designer.core.runtime.GUIException: class org.eclipse.birt.report.designer.internal.ui.layout.TableLayout cannot be cast to class org.eclipse.draw2d.XYLayout (org.eclipse.birt.report.designer.internal.ui.layout.TableLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @4926babf; org.eclipse.draw2d.XYLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @2883ee1)
+	at org.eclipse.birt.report.designer.core.runtime.GUIException.createGUIException(GUIException.java:72)
+	at org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle(ExceptionHandler.java:148)
+	at org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle(ExceptionHandler.java:134)
+	at org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle(ExceptionHandler.java:89)
+	at org.eclipse.birt.report.designer.internal.ui.editors.parts.event.ModelEventManager.postModelEvent(ModelEventManager.java:134)
+	at org.eclipse.birt.report.designer.internal.ui.editors.parts.event.ModelEventManager.postEvent(ModelEventManager.java:108)
+	at org.eclipse.birt.report.designer.internal.ui.editors.parts.event.ModelEventManager$1.stackChanged(ModelEventManager.java:60)
+	at org.eclipse.birt.report.model.activity.ActivityStack.sendNotifcations(ActivityStack.java:854)
+	at org.eclipse.birt.report.model.activity.ActivityStack.commit(ActivityStack.java:732)
+	at org.eclipse.birt.report.item.crosstab.internal.ui.dnd.CubeDropAdapter.performDrop(CubeDropAdapter.java:231)
+	at org.eclipse.birt.report.designer.internal.ui.dnd.DNDService.performDrop(DNDService.java:143)
+	at org.eclipse.birt.report.designer.internal.ui.dnd.DNDService.performDrop(DNDService.java:134)
+	at org.eclipse.birt.report.designer.internal.ui.palette.ReportTemplateTransferDropTargetListener.handleDrop(ReportTemplateTransferDropTargetListener.java:122)
+	at org.eclipse.gef.dnd.AbstractTransferDropTargetListener.drop(AbstractTransferDropTargetListener.java:186)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:227)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:224)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1169)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:841)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:467)
+	at org.eclipse.swt.dnd.DropTarget.Drop_64(DropTarget.java:401)
+	at org.eclipse.swt.dnd.DropTarget$1.method6(DropTarget.java:265)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:120)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:546)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:380)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: java.lang.ClassCastException: class org.eclipse.birt.report.designer.internal.ui.layout.TableLayout cannot be cast to class org.eclipse.draw2d.XYLayout (org.eclipse.birt.report.designer.internal.ui.layout.TableLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @4926babf; org.eclipse.draw2d.XYLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @2883ee1)
+	at org.eclipse.birt.report.item.crosstab.internal.ui.editors.editparts.CrosstabTableEditPart.createEditPolicies(CrosstabTableEditPart.java:215)
+	at org.eclipse.gef.editparts.AbstractEditPart.addNotify(AbstractEditPart.java:256)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.addNotify(AbstractGraphicalEditPart.java:227)
+	at org.eclipse.gef.editparts.AbstractEditPart.addChild(AbstractEditPart.java:219)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:788)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.ReportElementEditPart.refreshChildren(ReportElementEditPart.java:556)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:740)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:620)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.ReportElementEditPart.contentChange(ReportElementEditPart.java:1061)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.AbstractReportEditPart.contentChange(AbstractReportEditPart.java:206)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.AbstractReportEditPart$1.runModelChange(AbstractReportEditPart.java:84)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.AbstractReportEditPart$EditpartReportEventRunnable.run(AbstractReportEditPart.java:233)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.AbstractModelEventProcessor.postElementEvent(AbstractModelEventProcessor.java:104)
+	at org.eclipse.birt.report.designer.internal.ui.editors.schematic.editparts.GraphicsViewModelEventProcessor.postElementEvent(GraphicsViewModelEventProcessor.java:210)
+	at org.eclipse.birt.report.designer.internal.ui.editors.parts.event.ModelEventManager.postModelEvent(ModelEventManager.java:131)
+	... 51 more
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2024-08-01 15:28:39.106
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2024-08-01 15:28:39.106
+!MESSAGE Plug-in Name:BIRT Designer UI
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2024-08-01 15:28:39.106
+!MESSAGE Plug-in ID:org.eclipse.birt.report.designer.ui
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2024-08-01 15:28:39.106
+!MESSAGE Version:4.16.0.v202406141054
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 4 1001 2024-08-01 15:28:39.106
+!MESSAGE Error Code:Error.GUIException.invokedByUnexpectedException
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 4 1001 2024-08-01 15:28:39.106
+!MESSAGE Error Message:class org.eclipse.birt.report.designer.internal.ui.layout.TableLayout cannot be cast to class org.eclipse.draw2d.XYLayout (org.eclipse.birt.report.designer.internal.ui.layout.TableLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @4926babf; org.eclipse.draw2d.XYLayout is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @2883ee1)
+!SESSION 2024-08-05 08:30:08.921 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 08:33:29.349
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 08:33:30.211
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:60657
+!SESSION 2024-08-05 10:45:14.019 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:45:29.041
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:45:29.353
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:64383
+!SESSION 2024-08-05 10:53:03.288 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:53:20.793
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:53:21.074
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:59136
+!SESSION 2024-08-05 10:57:17.506 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:57:35.289
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 10:57:35.605
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:62076
+!SESSION 2024-08-05 11:04:56.382 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 11:05:11.420
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 11:05:11.702
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:64120
+!SESSION 2024-08-05 13:52:53.212 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 13:53:07.355
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 13:53:07.645
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:62030
+!SESSION 2024-08-05 13:54:02.977 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.birt.report.designer.ui.ReportPerspective -product org.eclipse.birt.branding.birt_all_in_one
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 13:54:18.248
+!MESSAGE BIRT Server starting
+
+!ENTRY org.eclipse.birt.report.viewer 1 0 2024-08-05 13:54:18.579
+!MESSAGE BIRT HTTP Server listening to: 127.0.0.1:52458
